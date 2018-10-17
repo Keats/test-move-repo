@@ -38,7 +38,7 @@ before_deploy:
 deploy:
   api_key:
     # if you see REPLACE_ME here, fix it by following the README of the template
-    secure: REPLACE_ME
+    secure: "sulMxcnR8lh7SYWozXCcyvpDfQZjSak9OKIWfGTGmtH07RcPOA5Tp90OSx2+mgqgBpQ5nPGnUfP7bIMfepCRrKFZACwoO3OljYyGMPnhq9n4Hw/tDTxpxuYXY8e2GDDU0BHHSZzV4blyTHhOkUJijnebChk+GljlJ2YqoJ/NT1wTk5leZoCl1Ojh2DzI81CP1YgmwGKn2+Z5E2qzOLhxhLag5F7RZOEpEEBYoXLIHUfA65z2sECLYLAnYobpTg3Dnv0ZQF7Krd4q59rE2+tua8Jdiw70LKuvU/sarS3is8pMr5R9pzlL9btp4zYNJwh9VKDGgRIFbf7sgfhhLpBXQ/PRcljeot3pesard0Nb69o4I1BUfzPIZS1VcZwQCu8CSXPQs9RSfumqQHTSesUhN904kYXHFnzNxn15JdocIKGRfsc0+CYJqxsWb0KbjWqn9AiJYwwhs30zfaebhvZdW0bCLZsqaqgPEOt2H4T1d2ky81Ag3HzzvrOHE+bqsr2UuTpBMPaqCZMk9RphkpO8d9FnweKA1SQpvUa8Om26xbZbJjfy7qHxLkmsVvZ9YrsAKZPwvHvF+hrdlkch+CHFAjbshQn9DlpVCjE7do44EnovaQaYZiU5vc78NTtpq4/rARcznIRypmocoPFbpwxTFP25q+pIVYw/ecmaArnnzTs="
   file_glob: true
   file: $CRATE_NAME-$TRAVIS_TAG-$TARGET.*
   on:
