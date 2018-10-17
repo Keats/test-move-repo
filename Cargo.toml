@@ -1,0 +1,15 @@
+[package]
+name = "test-bin"
+description = "A CLI application"
+version = "0.1.0"
+authors = ["No One <no@one.com>"]
+autobins = false
+license = "MIT"
+
+[[bin]]
+name = "test-bin"
+path = "src/main.rs"
+
+[dependencies]
+clap = "2"
+
